@@ -107,10 +107,10 @@ v = it.next().value;
 
 The invoked function is provided four arguments:
 
--   `value`: iterated value
--   `index`: iterated value index
--   `n`: iteration count (zero-based)
--   `src`: source array-like object
+-   **value**: iterated value.
+-   **index**: iterated value index.
+-   **n**: iteration count (zero-based).
+-   **src**: source array-like object.
 
 ```javascript
 function fcn( v, i ) {
@@ -174,6 +174,7 @@ var count = ctx.count;
 -   If provided a generic `array`, the returned [iterator][mdn-iterator-protocol] does **not** ignore holes. To achieve greater performance for sparse arrays, use a custom [iterator][mdn-iterator-protocol].
 -   A returned [iterator][mdn-iterator-protocol] does **not** copy a provided array-like `object`. To ensure iterable reproducibility, copy a provided array-like `object` **before** creating an [iterator][mdn-iterator-protocol]. Otherwise, any changes to the contents of an array-like `object` will be reflected in the returned [iterator][mdn-iterator-protocol].
 -   In environments supporting `Symbol.iterator`, the function **explicitly** does **not** invoke an array's `@@iterator` method, regardless of whether this method is defined. To convert an array to an implementation defined [iterator][mdn-iterator-protocol], invoke this method directly.
+-   The returned [iterator][mdn-iterator-protocol] supports array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array/complex64`][@stdlib/array/complex64]).
 
 </section>
 
@@ -303,6 +304,8 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-to-strided-iterator/main/LICENSE
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
+
+[@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64
 
 <!-- <related-links> -->
 
