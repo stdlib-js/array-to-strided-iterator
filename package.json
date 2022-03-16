@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-to-strided-iterator",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Create an iterator from a strided array-like object.",
   "license": "Apache-2.0",
   "author": {
