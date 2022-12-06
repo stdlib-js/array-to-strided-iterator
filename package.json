@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@stdlib/array-base-accessor-getter": "^0.0.x",
+    "@stdlib/array-base-assert-is-accessor-array": "^0.0.x",
     "@stdlib/array-base-getter": "^0.0.x",
     "@stdlib/array-dtype": "^0.0.x",
     "@stdlib/assert-is-collection": "^0.0.x",
