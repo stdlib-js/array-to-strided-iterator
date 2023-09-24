@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import stridedarray2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-strided-iterator@esm/index.mjs';
+import stridedarray2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-strided-iterator@v0.1.0-esm/index.mjs';
 ```
 
 #### stridedarray2iterator( N, src, stride, offset\[, mapFcn\[, thisArg]] )
@@ -200,7 +200,7 @@ var count = ctx.count;
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import inmap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import stridedarray2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-strided-iterator@esm/index.mjs';
+import stridedarray2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-strided-iterator@v0.1.0-esm/index.mjs';
 
 function scale( v, i ) {
     return v * (i+1);
