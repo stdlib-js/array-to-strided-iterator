@@ -55,7 +55,7 @@
     "@stdlib/assert-is-iterator-like": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/math-base-assert-is-nan": "^0.1.0",
-    "@stdlib/random-base-randu": "^0.0.8",
+    "@stdlib/random-base-randu": "^0.1.0",
     "@stdlib/utils-inmap": "^0.1.0",
     "@stdlib/utils-noop": "^0.1.0",
     "proxyquire": "^2.0.0",
