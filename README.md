@@ -45,43 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-to-strided-iterator
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-stridedarray2iterator = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-strided-iterator@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-to-strided-iterator/tags). For example,
-
-```javascript
-stridedarray2iterator = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-strided-iterator@v0.1.0-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var stridedarray2iterator = require( 'path/to/vendor/umd/array-to-strided-iterator/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-to-strided-iterator@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.stridedarray2iterator;
-})();
-</script>
+var stridedarray2iterator = require( '@stdlib/array-to-strided-iterator' );
 ```
 
 #### stridedarray2iterator( N, src, stride, offset\[, mapFcn\[, thisArg]] )
@@ -220,16 +207,11 @@ var count = ctx.count;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-to-strided-iterator@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var Float64Array = require( '@stdlib/array-float64' );
+var inmap = require( '@stdlib/utils-inmap' );
+var randu = require( '@stdlib/random-base-randu' );
+var stridedarray2iterator = require( '@stdlib/array-to-strided-iterator' );
 
 function scale( v, i ) {
     return v * (i+1);
@@ -250,11 +232,6 @@ while ( true ) {
     }
     console.log( v.value );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -323,8 +300,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-to-strided-iterator.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-to-strided-iterator
 
-[test-image]: https://github.com/stdlib-js/array-to-strided-iterator/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/array-to-strided-iterator/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/array-to-strided-iterator/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-to-strided-iterator/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-to-strided-iterator/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-to-strided-iterator?branch=main
@@ -355,13 +332,13 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
 
-[@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64/tree/umd
+[@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64
 
 <!-- <related-links> -->
 
-[@stdlib/array/from-iterator]: https://github.com/stdlib-js/array-from-iterator/tree/umd
+[@stdlib/array/from-iterator]: https://github.com/stdlib-js/array-from-iterator
 
-[@stdlib/array/to-iterator]: https://github.com/stdlib-js/array-to-iterator/tree/umd
+[@stdlib/array/to-iterator]: https://github.com/stdlib-js/array-to-iterator
 
 <!-- </related-links> -->
 
