@@ -47,13 +47,13 @@
     "@stdlib/assert-is-nonnegative-integer": "^0.1.0",
     "@stdlib/string-format": "^0.1.1",
     "@stdlib/symbol-iterator": "^0.1.1",
-    "@stdlib/types": "^0.1.0",
+    "@stdlib/types": "^0.2.0",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-float64": "^0.1.1",
     "@stdlib/assert-is-iterator-like": "^0.1.1",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/math-base-assert-is-nan": "^0.1.1",
     "@stdlib/random-base-randu": "^0.1.0",
     "@stdlib/utils-inmap": "^0.1.0",
