@@ -55,7 +55,7 @@
     "@stdlib/array-float64": "^0.2.1",
     "@stdlib/assert-is-iterator-like": "^0.2.1",
     "@stdlib/math-base-assert-is-nan": "^0.2.1",
-    "@stdlib/random-base-randu": "^0.2.0",
+    "@stdlib/random-base-randu": "^0.2.1",
     "@stdlib/utils-inmap": "^0.2.1",
     "@stdlib/utils-noop": "^0.2.1",
     "proxyquire": "^2.0.0",
