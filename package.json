@@ -45,7 +45,7 @@
     "@stdlib/assert-is-function": "^0.2.2",
     "@stdlib/assert-is-integer": "^0.2.2",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/symbol-iterator": "^0.2.2",
     "@stdlib/types": "^0.4.3",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
