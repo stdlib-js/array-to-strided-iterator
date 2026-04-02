@@ -37,10 +37,10 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-accessor-getter": "^0.2.2",
+    "@stdlib/array-base-accessor-getter": "^0.2.3",
     "@stdlib/array-base-assert-is-accessor-array": "^0.2.3",
     "@stdlib/array-base-getter": "^0.2.3",
-    "@stdlib/array-dtype": "^0.3.0",
+    "@stdlib/array-dtype": "^0.3.1",
     "@stdlib/assert-is-collection": "^0.2.3",
     "@stdlib/assert-is-function": "^0.2.3",
     "@stdlib/assert-is-integer": "^0.2.3",
@@ -55,7 +55,7 @@
     "@stdlib/array-float64": "^0.2.3",
     "@stdlib/assert-is-iterator-like": "^0.2.3",
     "@stdlib/math-base-assert-is-nan": "^0.2.3",
-    "@stdlib/random-base-randu": "^0.2.2",
+    "@stdlib/random-base-randu": "^0.2.3",
     "@stdlib/utils-inmap": "^0.2.3",
     "@stdlib/utils-noop": "^0.2.3",
     "proxyquire": "^2.0.0",
